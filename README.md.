@@ -1,0 +1,12 @@
+File Organizer(Python)
+
+Hi!I am a first year CoputerScience student and this is my first project.I built this to organize my folders as i start my journey in Python.
+
+Purpose:
+The goal of this was to practise
+1)Pythons "os" and "shutil" libraries
+2)File path management
+3)asic automation logic
+
+How it works:
+It automatically moves files into organized sub0folder
