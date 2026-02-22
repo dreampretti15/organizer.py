@@ -15,7 +15,7 @@ file_types={
 
 #Check if the path actually exists
 if not os.path.exists(directory_path):
-   print(f"Error:The path {directory_path}does not exist)
+   print(f"Error: The path {directory_path}does not exist)
 return
 
 for filename in os.listdir(directory_path):
