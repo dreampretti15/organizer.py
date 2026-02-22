@@ -4,12 +4,14 @@ import shutil
 #this helps me organize my "Downloads" folder.
 
 def organize_files(directory_path):
-file_types={ "pdf":"Documents",
+file_types={
+             "pdf":"Documents",
              "docs":"Documents",
              "jpg":"images",
              "png":"Images",
              "zip":"Archieves",
-             "py":"Scrips",}
+             "py":"Scrips"
+           }
 
 #Check if the path actually exists
 if not os.path.exists(directory_path):
