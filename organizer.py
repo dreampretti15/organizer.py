@@ -20,14 +20,14 @@ for filename in os.listdir(directory_path):
    extension=os.path.splitext(filename)
 
 if extension.lower() in file_types:
-   folder name=folder_types[extension.lower()]
+   folder_name=file_types[extension.lower()]
    folder path=os.path.join(directory_pat,folder_name)
 
 #Create the folder if its not there
 if not os.path.exists(folder_path):
    os.makedirs(folder_path)
 
-original_files=os.path.join(directory_path,filename)
+original_file=os.path.join(directory_path,filename)
 target_location=os.path.join(folder_path,filename)
 
 shutil.move(original_file,target_location)
